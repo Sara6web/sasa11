@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <title>🚀 الحاج للنشر التلقائي</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>🚀 الحاج للنشر التلقائي</h1>
+    <p>✨ ارفعي صورك/فيديوهاتك، وحددي وقت النشر، والذكاء الاصطناعي بيعمل كل شيء 💥</p>
+
+    <input type="file" id="mediaFiles" multiple onchange="updateFileList()"><br>
+    <div id="fileList"></div>
+
+    <textarea id="customText" placeholder="🤖 اتركيه فارغ للكابشن الذكي"></textarea><br>
+
+    <label>📅 تاريخ البداية:</label>
+    <input type="date" id="startDate"><br>
+    <label>⏰ ساعة النشر:</label>
+    <input type="time" id="publishTime" value="09:00"><br>
+    <label>📅 تاريخ النهاية:</label>
+    <input type="date" id="endDate"><br>
+
+    <button onclick="startScheduler()">✅ جدولة النشر</button>
+
+    <div id="log"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
