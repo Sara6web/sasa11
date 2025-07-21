@@ -1,0 +1,12 @@
+{
+  "name": "auto-publisher",
+  "version": "1.0.0",
+  "description": "نشر تلقائي على السوشيال ميديا مع ذكاء اصطناعي",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}

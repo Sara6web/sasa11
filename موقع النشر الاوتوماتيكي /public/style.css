@@ -1,0 +1,62 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    direction: rtl;
+    text-align: center;
+    padding: 20px;
+}
+h1 {
+    color: #2e8b57;
+}
+input, textarea, button, select {
+    margin: 10px;
+    padding: 12px;
+    width: 80%;
+    max-width: 500px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+button {
+    background-color: #2e8b57;
+    color: white;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #276b47;
+}
+#fileList {
+    background: #fff;
+    padding: 10px;
+    margin: 10px auto;
+    width: 80%;
+    max-width: 500px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: right;
+}
+.fileItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 0;
+}
+.deleteBtn {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.deleteBtn:hover {
+    background-color: #c0392b;
+}
+#log {
+    background-color: #eee;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    height: 200px;
+    overflow-y: scroll;
+    text-align: right;
+}
